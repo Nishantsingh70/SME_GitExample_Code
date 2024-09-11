@@ -7,8 +7,9 @@ namespace SME_GitExample_Code.Controllers
     public class HomeController : Controller
     {
         int test = 100;
-        int a = 1;
-        string name = "nishant";
+        int b = 2;
+        //int a = 1;
+        //string name = "nishant";
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
