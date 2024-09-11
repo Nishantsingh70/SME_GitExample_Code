@@ -16,7 +16,7 @@ namespace SME_GitExample_Code.Controllers
 
         public IActionResult Index()
         {
-            return Content("This is index page");
+            return Content("This is index page code");
         }
 
         public IActionResult Privacy()
