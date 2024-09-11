@@ -26,7 +26,7 @@ namespace SME_GitExample_Code.Controllers
 
         public IActionResult Login()
         {
-            return Content("This is login page");
+            return Content("This is login page code");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
