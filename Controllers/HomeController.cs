@@ -21,7 +21,7 @@ namespace SME_GitExample_Code.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            return Content("This is privacy page code");
         }
 
         public IActionResult Login()
